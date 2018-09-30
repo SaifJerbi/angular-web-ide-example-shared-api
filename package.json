@@ -1,0 +1,29 @@
+{
+  "name": "shared-api",
+  "version": "1.0.0",
+  "description": "Contains the different shared feature that our platform provide for each plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaifJerbi/angular-web-ide-example-shared-api.git"
+  },
+  "keywords": [
+    "shared-api",
+    "modularity"
+  ],
+  "author": "SaifJerbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaifJerbi/angular-web-ide-example-shared-api/issues"
+  },
+  "homepage": "https://github.com/SaifJerbi/angular-web-ide-example-shared-api#readme",
+  "dependencies": {
+    "rxjs": "^6.3.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  }
+}

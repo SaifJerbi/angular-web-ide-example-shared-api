@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "es2015",
+    "esModuleInterop": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist/api",
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["api/**/*"],
+  "exclude": ["node_modules"]
+}
