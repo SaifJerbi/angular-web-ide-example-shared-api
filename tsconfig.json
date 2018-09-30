@@ -1,15 +1,16 @@
 {
-  "compileOnSave": false,
+  "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "module": "es2015",
+    "module": "commonjs",
     "esModuleInterop": true,
     "target": "es5",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist/api",
-    "lib": ["es2017", "dom"]
   },
-  "include": ["api/**/*"],
+  "include": [
+    "api/**/*"
+  ],
   "exclude": ["node_modules"]
 }
